@@ -1,0 +1,42 @@
+@charset "utf-8";
+html, body, header, main, section, div, h2{
+	margin: 0;
+	padding: 0;
+	font-family: verdana;
+}
+.wrap {
+	height: 1000px;
+	background: yellow;
+	width: 960px;
+	margin: 20px auto;
+	text-align: center;
+}
+header {
+	width: 960px;
+	display: block;
+	height: 60px;
+	background: red;
+}
+header > div.gnb {
+	font-style: 20px;
+	font-weight: bold;
+	line-height: 60px;
+}
+header.fixed {
+	position: fixed;
+	top: 0px;
+	left: center;
+}
+main > div.contents > section {
+	height: 400px;
+	line-height: 400px;
+}
+div.contents > section.content1 {
+	background: #0FE3DD;
+}
+div.contents > section.content2 {
+	background: #F7ABED;
+}
+div.contents > section.content3 {
+	background: #E0DCF2;
+}
