@@ -9,7 +9,7 @@ header.fixed {
 	left: center;
 }
 ```
-<header> 태그에 'fixed' 라는 class 이름이 존재할 경우 position 을 fixed로 설정하고, top과 left를 이용하여 위치 설정.
+```<header>``` 태그에 'fixed' 라는 class 이름이 존재할 경우 position 을 fixed로 설정하고, top과 left를 이용하여 위치 설정.
 
 
 ## js
@@ -23,4 +23,4 @@ $(global).scroll(function(){
 		}
 });
 ```
-원하는 scroll 높이를 변수 scroll_y에 담고, 그 값이 window의 scrollY값과 같아질 경우 header태그에 'fixed' class 추가.
+원하는 scroll 높이를 변수 scroll_y에 담고, 그 값이 window의 scrollY값과 같아질 경우 ```<header>``` 'fixed' class 추가.
