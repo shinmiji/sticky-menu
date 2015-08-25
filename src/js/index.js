@@ -23,8 +23,9 @@
 	
 	// window에서 스크롤이 감지될 경우 함수 실행
 	$(global).scroll(function(){
+		console.log(scrollY);
 		// window의 스크롤 된 높이가 scroll_y (상단에서 정의)값과 같을 경우
-		if (window.scrollY === scroll_y) {
+		if (window.scrollY > scroll_y) {
 			// header 부분에 'fixed' 라는 class 이름을 부여하여 화면 상단에 메뉴가 고정되어 따라다니도록 구현.
 			$header.addClass('fixed');
 		}
